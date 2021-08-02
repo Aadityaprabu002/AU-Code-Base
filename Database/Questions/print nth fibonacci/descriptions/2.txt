@@ -1,0 +1,4 @@
+input format:
+10
+output format:
+ans:55

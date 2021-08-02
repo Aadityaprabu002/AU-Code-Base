@@ -1,0 +1,4 @@
+Input:
+allergy allergic
+Output: 
+NO

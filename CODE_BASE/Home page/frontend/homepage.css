@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+html {
+  zoom: 140%;
+}
+body {
+  background-color: white;
+}
+.navbar {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px !important;
+  background-color: white !important;
+}
+.top-container,
+.bottom-container {
+  position: relative;
+  background-color: maroon;
+  height: auto;
+}
+.top-content,
+.bottom-content {
+  color: white;
+  padding: 10px;
+}
+
+.middle-container {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.box1 {
+  width: 50%;
+  background-color: rgb(251, 205, 174);
+  display: flex;
+  flex-direction: row;
+}
+.box1 iframe {
+  position: relative;
+  width: 100%;
+  height: 194px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.box2 {
+  position: relative;
+  margin: 0 auto;
+  width: 50%;
+  color: maroon;
+}
+.mid-content {
+  width: 57%;
+  position: relative;
+  margin: 0 auto;
+}
+.mid-content h1 {
+  font-size: 60px;
+}
+.mid-content h1 span {
+  color: rgb(251, 205, 174);
+}
+
+@media only screen and (max-width: 900px) {
+  .middle-container {
+    flex-direction: column;
+  }
+  .box1,
+  .box2 {
+    width: 100%;
+  }
+  .wrap {
+    width: 90%;
+  }
+  .wrap {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .box1 {
+    display: none;
+  }
+}

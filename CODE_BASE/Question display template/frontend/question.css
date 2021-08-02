@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+:root {
+  --bor-rad: 10px;
+}
+html {
+  zoom: 1;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Open Sans", sans-serif;
+}
+.round-edge {
+  border-radius: var(--bor-rad);
+}
+.bg-gray {
+  background-color: rgb(243, 240, 240);
+}
+.font-large {
+  font-size: large;
+}
+.navbar {
+  background-color: maroon !important;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px !important;
+}
+.nav-item {
+  color: white !important;
+}
+.btn {
+  background-color: #880000 !important;
+  color: white !important;
+}
+
+.profile-btn {
+  font-size: 20px !important;
+  background-color: #f8f9fa !important;
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.profile-btn a:hover {
+  text-decoration: none !important;
+  color: black;
+}
+.inner {
+  padding: 10px;
+  /* margin: 5px; */
+}
+.inner code {
+  color: rgb(0, 0, 0);
+}
+.wrapper {
+  margin: 20px;
+}
+
+.Qname {
+  background-color: rgb(255, 255, 255);
+}
+.Qdescription {
+  /* background-color: rgb(255, 255, 255); */
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.submitted-code-section {
+  background-color: white;
+}

@@ -1,0 +1,9 @@
+Write a program to check whether a given number is found in given array
+output YES if it is found. 
+Output NO if it is not.
+
+inputformat:
+n x
+arr[1 ..... n]
+
+n is the size of array and x is the element to be searched for in the array arr

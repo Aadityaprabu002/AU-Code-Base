@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.header {
+  background-color: maroon;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.header h1 {
+  font-size: 70px !important;
+}
+.mid-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.content {
+  position: relative;
+  margin: 80px;
+}
+.content p {
+  font-size: 20px !important;
+  color: maroon;
+}

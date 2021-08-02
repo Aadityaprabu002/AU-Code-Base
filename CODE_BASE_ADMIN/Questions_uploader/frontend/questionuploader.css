@@ -1,0 +1,65 @@
+body {
+  background-color: maroon;
+  font-size: 20px;
+}
+h1 {
+  color: white;
+}
+textarea {
+  resize: both !important;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container section {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+textarea {
+  padding: 10px;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.award-options {
+  /* border: black solid 1px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.content {
+  border: solid 1px black;
+  background-color: rgb(251, 145, 145);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.selected-awards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content:; */
+}
+.selected-content {
+  border: solid 1px black;
+  background-color: rgb(176, 255, 176);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* .test-cases textarea,
+.desp-list textarea {
+  margin-bottom: 10px;
+} */

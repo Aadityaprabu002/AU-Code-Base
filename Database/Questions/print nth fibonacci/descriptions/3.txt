@@ -1,0 +1,4 @@
+input format:
+4
+output format:
+ans:3

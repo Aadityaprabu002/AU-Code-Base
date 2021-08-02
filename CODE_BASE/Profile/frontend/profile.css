@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+html {
+  zoom: 140%;
+}
+body {
+  background-color: rgb(233, 233, 233) !important;
+}
+.navbar {
+  background-color: maroon !important;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px !important;
+}
+.nav-item {
+  color: white !important;
+}
+.profile-btn {
+  font-size: 14px !important;
+}
+.profile-btn a {
+  text-decoration: none !important;
+  color: black;
+}
+.profile-btn a:hover {
+  text-decoration: none !important;
+  color: black;
+}
+.mid-container {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: maroon;
+  border-radius: 20px;
+  overflow: hidden;
+
+  box-shadow: 0px 10px 5px #aaaaaa;
+}
+.card,
+.card .list-group-item {
+  /* margin: 10px auto !important; */
+
+  color: maroon;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+}
+.card h5 {
+  font-size: 40px;
+}
+.profile-image {
+  display: inline-block;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+  background-color: rgb(228, 224, 194);
+  text-align: center;
+}
+.user-dashboard {
+  background-color: white;
+  width: 70%;
+
+  /* max-height: 500px; */
+}
+.user-rank h1 {
+  font-size: 70px !important;
+  text-align: center;
+  color: maroon;
+  /* color: rgb(251, 205, 174); */
+}
+.user-badges {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.content {
+  position: relative;
+  margin: 20px;
+}
+@media only screen and (max-width: 1400px) {
+  .card {
+    font-size: 10px;
+    width: 100% !important;
+  }
+  .card h5 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .mid-container {
+    flex-direction: column;
+  }
+  .user-dashboard {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .user-rank h1 {
+    font-size: 30px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .user-rank h1 {
+    font-size: 20px !important;
+  }
+}

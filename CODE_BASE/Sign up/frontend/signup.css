@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+html {
+  zoom: 140%;
+}
+body {
+  height: 100%;
+  background-color: maroon;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+.navbar {
+  background-color: white !important;
+}
+.nav-link:hover {
+  color: grey !important;
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.signup-container {
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+  padding: 50px;
+  border-radius: 20px;
+}
+/* #signup {
+  position: relative;
+  width: 100%;
+} */
+.btn {
+  background-color: #880000;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus {
+  box-shadow: 0 0 5px rgb(255, 54, 54);
+  border: 1px solid #880000;
+}
+
+@media only screen and (max-width: 900px) {
+  .signup-container {
+    width: 90%;
+  }
+}
