@@ -2,7 +2,7 @@
 
 ### ANNA UNIVERSITY CODING PLATFORM
 ### AIM:
-The idea is to bring in competitive coding and solving programming problems, which inculcates an interest of coding within IT and CS students and to embrace their coding talents.
+The idea is to bringing in competitive coding , which inculcates an interest of coding within students and improve their coding skills.
 ### FEATURES:
 - Comprises of online code editor for the languages  C, C++, Java, Python.
 - Problems or questions are given by the Codebase club.
