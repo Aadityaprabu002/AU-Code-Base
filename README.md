@@ -18,4 +18,7 @@ The project aims to bring in competitive coding among anna university students a
 #### Server Side:  
 - php
 #### Database:  
-- Maria Db
+- MySQL
+
+## Project Description:
+[Click here](https://github.com/Aadityaprabu002/AU-Code-Base/blob/master/ANNA%20UNIVERSITY%20CODING%20PLATFORM.pdf)
