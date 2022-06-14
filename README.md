@@ -1,7 +1,7 @@
 # AU CODE BASE
 
 ### ANNA UNIVERSITY CODING PLATFORM
-AIM:
+### AIM:
 The idea is to bring in competitive coding and solving programming problems, which inculcates an interest of coding within IT and CS students and to embrace their coding talents.
 ### FEATURES:
 - Comprises of online code editor for the languages  C, C++, Java, Python.
